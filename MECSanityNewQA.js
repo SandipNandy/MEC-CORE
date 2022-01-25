@@ -1,5 +1,5 @@
 var XLSX = require('xlsx');
-var workbook = XLSX.readFile('C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/MEC/MECSanityQADatasheet.xlsx');
+var workbook = XLSX.readFile('MEC/MECSanityQADatasheet.xlsx');
 var MEC = workbook.Sheets['QA'];
 var EC = protractor.ExpectedConditions;
 var path = require('path');
