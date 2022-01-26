@@ -1,5 +1,4 @@
 const { hasUncaughtExceptionCaptureCallback } = require("process");
-const { element, by, browser } = require("protractor");
 var XLSX = require('xlsx');
 
 let Mec_sanity = function () {
