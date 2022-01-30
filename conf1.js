@@ -19,7 +19,7 @@ exports.config = {
         //'browserName': 'firefox'
         "browserName": "chrome",
         "chromeOptions": {
-          'binary': "C:\\Program Files\\Google\\Chrome1\\Application\\chrome.exe",  
+          'binary': "..\\Google\\Chrome1\\Application\\chrome.exe",  
       },
         logName:"MEC CORE :- ",
         seleniumAddress: 'http://localhost:4444/wd/hub',
