@@ -22,7 +22,7 @@ exports.config = {
           'binary': "C:\\Program Files\\Google\\Chrome1\\Application\\chrome.exe",  
       },
         logName:"MEC CORE :- ",
-        seleniumAddress: 'http://9.79.208.143:4444/wd/hub',
+        seleniumAddress: 'http://localhost:4444/wd/hub',
         specs: ['MECSanityNewQA.js'],
           },
     ],
